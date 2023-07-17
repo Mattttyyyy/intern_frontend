@@ -14,56 +14,392 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
 
-body {
-  margin: 0;
+.desktop-login-container {
+  width: 100%;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  overflow: auto;
   min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.desktop-login-desktop-login {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(241, 241, 241, 1);
 }
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.desktop-login-frame1 {
+  top: -132px;
+  left: -236px;
+  width: 586px;
+  height: 586px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(51, 88, 244, 1);
+  border-style: solid;
+  border-width: 23px;
+  border-radius: 500px;
+  background-color: rgba(92, 123, 255, 1);
+}
+.desktop-login-rectangle1 {
+  top: 214px;
+  left: 230px;
+  width: 426px;
+  height: 596px;
+  position: absolute;
+  border-radius: 20px 0 0 20px;
+}
+.desktop-login-left {
+  top: 214px;
+  left: 230px;
+  width: 440px;
+  height: 596px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.desktop-login-text {
+  top: 244px;
+  left: 80px;
+  color: rgba(89, 89, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-login-btn {
+  top: 175px;
+  left: 80px;
+  width: 140px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(51, 88, 244, 0.10000000149011612);
+}
+.desktop-login-text02 {
+  top: 5px;
+  left: 53px;
+  color: rgba(1, 10, 39, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-login-btn1 {
+  top: 175px;
+  left: 220px;
+  width: 140px;
+  height: 28px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.desktop-login-text04 {
+  top: 5px;
+  left: 54px;
+  color: rgba(1, 10, 39, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text06 {
+  top: 487px;
+  left: 107px;
+  color: rgba(121, 121, 121, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text08 {
+  top: 530px;
+  left: 184px;
+  color: rgba(121, 121, 121, 1);
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Light;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text10 {
+  top: 487px;
+  left: 256px;
+  color: rgba(1, 10, 39, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-frame5 {
+  top: 203px;
+  left: 80px;
+  width: 280px;
+  height: 2px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: rgba(51, 88, 244, 1);
+}
+.desktop-login-text12 {
+  top: 82px;
+  left: 254px;
+  color: rgba(51, 88, 244, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
-button:hover {
-  border-color: #646cff;
+.desktop-login-text14 {
+  top: 94px;
+  left: 155px;
+  color: rgba(1, 10, 39, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.desktop-login-text15 {
+  color: rgba(1, 10, 39, 1);
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.desktop-login-text16 {
+  color: rgba(51, 88, 244, 1);
+}
+.desktop-login-frame3 {
+  top: 266px;
+  left: 80px;
+  width: 280px;
+  height: 35px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(1, 10, 39, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+}
+.desktop-login-text18 {
+  top: 320px;
+  left: 80px;
+  color: rgba(89, 89, 89, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-frame4 {
+  top: 342px;
+  left: 80px;
+  width: 280px;
+  height: 35px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(1, 10, 39, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 5px;
+}
+.desktop-login-frame6 {
+  top: 402px;
+  left: 80px;
+  width: 280px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background-color: rgba(1, 10, 39, 1);
+}
+.desktop-login-text20 {
+  top: 11px;
+  left: 116px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-right {
+  top: 214px;
+  left: 656px;
+  width: 554px;
+  height: 596px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 0 20px 20px 0;
+}
+.desktop-login-image1 {
+  top: -134px;
+  left: -5px;
+  width: 559px;
+  height: 751px;
+  position: absolute;
+}
+.desktop-login-frame2 {
+  top: 0px;
+  left: 0px;
+  width: 554px;
+  height: 596px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(51, 88, 244, 0.44999998807907104);
+}
+.desktop-login-text22 {
+  top: 224px;
+  left: 365px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  font-size: 60px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text24 {
+  top: 242px;
+  left: 186px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text26 {
+  top: 326px;
+  left: 144px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-text31 {
+  top: 290px;
+  left: 180px;
+  color: rgba(249, 249, 249, 1);
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.desktop-login-vector1 {
+  top: 213px;
+  left: 656px;
+  width: 58px;
+  height: 598px;
+  position: absolute;
+  box-shadow: 11px 0px 12px 0px rgba(0, 0, 0, 0.25) ;
 }
